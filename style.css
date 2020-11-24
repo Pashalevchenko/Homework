@@ -8,16 +8,18 @@ body{
     color: darkgreen;
     display: block;
     margin: 5px;
-    text-align: center;
     border: 2px solid #3498db;
     padding: 10px 1px;
-    width: 200px;
+    width: 280px;
+    border-radius: 30px;
+    
     
 }
 
 
 .box h1{
     color: aliceblue;
+    text-transform: uppercase;
 }
 .box{
     width: 300px;
