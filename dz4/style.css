@@ -1,22 +1,22 @@
 body{
-    margin: 0;
-    padding: 0;
-    background-color: #FFFFFF; 
+    background-color: #FFFFFF;
+    border: 
 
 }
 .header_logo{
-    position: fixed;
-    left: 500px;
-    right: 0;
-    top: 25px;
+    position:absolute;
+    left: 35%;
+    right: 50%;
+    top: -90px;
     width: 150px;
-    height: 32px;
+    height: 2px;
+    
     
 }
 .box{
     position: absolute;
-    left: 12%;
-    right: 0;
+    left: 20%;
+    right: 50%;
     top: 96px;
     width: 560px;
     height: 48px;
