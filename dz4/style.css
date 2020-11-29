@@ -56,6 +56,7 @@ h2{
     height: 80px;
     left: 72px;
     top: 180px;
+    color: #515759;
     
 }
 .website_ref{
@@ -67,9 +68,30 @@ h2{
     top: 327px;
     color: #1890FF;
 }
+.buttom_learn_more{
+    position: absolute;
+    color: aliceblue;
+    display: block;
+    margin: 5px;
+    background: #1890FF;
+    width: 260px;
+    height: 50px;
+    border-radius: 10px;
+    left: 60px;
+    font-size: 25px;
+    top: 450px; 
+}
 
-
-
+.buttom_learn_more .buttom_learn_more_text{
+    font-weight: 500;
+    position: absolute;
+    left: 70px;
+    top: 8px;
+    text-decoration: none;
+    color: #FFFFFF;
+    
+    
+}
 
 
 
