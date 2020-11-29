@@ -31,3 +31,17 @@ body{
     top: 15px;
     margin: 20px;
 }
+.section_box{
+    position: absolute;
+    left: 0px;
+    top: 32px;
+}
+.watch{
+    position: absolute;
+    left:334px;
+    top: 90px;
+}
+h2{
+    position: absolute;
+    top: 60px;
+}
