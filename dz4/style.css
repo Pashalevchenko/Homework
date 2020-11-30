@@ -119,13 +119,46 @@ h2{
     color: #1890FF;
     
 }
+.airpods_box{
+    position: absolute;
+    top: 230px;
+    left: 110px;
+}
 
+.airpods{
+    width: 168px;
+    height: 168px;
+}
 
+.airpods_box p{
+    position: absolute;
+    font-weight: bold;
+    font-size: 16px;
+    top: 180px;
+}
+.airpods_box text{
+    position: absolute;
+    top: 220px;
+    left: 0px;
+    color: #515759;
+    
+   
+}
+.buy_box{
+    position: absolute;
+    border: 2px solid #3498db;
+    background: #1890FF;
+    border-radius: 4px;
+    width: 56px;
+    height: 20px;
+    top: 250px;
+    text-align: center;
+}
 
-
-
-
-
+.buy_box a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
 
 
 
