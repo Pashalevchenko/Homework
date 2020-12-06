@@ -7,8 +7,11 @@
 
 .container{
     background: #333;
-    min-height: 100vh;
+    height: 340px;
+    width: 675px;
+    margin: 0px auto;
     padding: 50px 0;
+    vertical-align: top;
 }
 
 .list{
@@ -56,3 +59,70 @@ label:hover{
     background-color: #888;
     cursor: pointer;
 }
+header{
+    background: #4A4F56;
+    text-align: center;
+    color: #EA7C7C;
+    width: 675px;
+    margin: auto;
+    height: 85px;
+    
+    
+}
+.top h1{
+    padding: 5px 150px;
+    
+    
+}
+p{
+    color: #EA7C7C;
+    
+}
+
+.bottom-box{
+    width: 500px;
+    height: 50px;
+    background: #4A4F56; 
+    margin: 25px auto;
+}
+p{
+    text-align: center;
+    padding: 11px;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
