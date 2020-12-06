@@ -128,11 +128,13 @@ h2{
     
     
     
+    
 }
 h3{
     color: #E4E4EE;
     text-align: center;
     padding: 15px;
+    font-weight: 300;
 }
 
 
@@ -151,12 +153,20 @@ h4{
     font-weight: 400;
 }
 
-img{
-    vertical-align: middle;
-    width: 40px;
-    color: #F8FDFE;
+p{
+    color: #BDDFEF;
+    text-align: center;
+    font-size: 20px;
+    
     
 }
+[class^="wi"]{
+    font-size: 23px;
+}
+
+
+
+
 
 
 
