@@ -44,6 +44,7 @@ input:checked + span{
 .description{
     font-size: 12px;
     
+    
 }
 
 .description:before{
