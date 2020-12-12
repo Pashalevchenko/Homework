@@ -11,6 +11,7 @@
     margin: 60px auto;
     display: flex;
     border: 10px solid #000;
+    position: relative;
 }
 
 .container{
@@ -105,7 +106,7 @@ p{
     
     position: absolute;
     font-size: 102px;
-    top: 290px;
+    top: 220px;
     
 }
 
@@ -143,31 +144,67 @@ p{
 
 
 
+.letters li{
+    display: inline-block;
+    
+    font-size: 60px;
+    padding: 41px;
+    
+    
+}
 
+.letters{
+    position: absolute;
+    left: 100px;
+    top: -25px;
+    width: 100%;
+    
+}
 
+.letters_2 li{
+    display: inline-block;
+    font-size: 60px;
+    padding: 41px;
+    
+    
+    
+}
 
+.letters_2{
+    position: absolute;
+    left: 100px;
+    bottom: -25px;
+    width: 100%;
+    
+}
 
+.numbers{
+    position: absolute;
+    text-decoration: none;
+    left: 0px;
+    top: 92px;
+}
 
+.numbers li{
+    font-size: 60px;
+    list-style: none;
+    padding: 28px;
+    
+}
 
+.numbers_2{
+    position: absolute;
+    
+    left: 1110px;
+    top: 92px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.numbers_2 li{
+    font-size: 60px;
+    list-style: none;
+    padding: 28px;
+    
+}
 
 
 
@@ -175,7 +212,7 @@ p{
 .figure_black{
     position: absolute;
     font-size: 102px;
-    top: 1035px;
+    top: 970px;
     
     
     
@@ -219,7 +256,7 @@ p{
     
     position: absolute;
     font-size: 102px;
-    top: 910px;
+    top: 840px;
     
 }
 
