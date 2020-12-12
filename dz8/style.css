@@ -172,6 +172,140 @@ p{
 
 
 
+.figure_black{
+    position: absolute;
+    font-size: 102px;
+    top: 1035px;
+    
+    
+    
+}
+p{
+    position: absolute;
+    bottom: 0px;
+}
+
+.castle_1_black{
+    left: 890px;
+}
+
+
+.knight_2_black{
+    left: 765px;
+}
+.figure_2_black{
+    left: 640px;
+}
+
+.queen_black{
+    left: 515px;
+}
+
+.king_black{
+    left: 390px;
+}
+
+.figure_1_black{
+    left: 265px;
+}
+
+
+.knight_black{
+    left: 140px;
+}
+
+
+.figure_pawn_black{
+    
+    position: absolute;
+    font-size: 102px;
+    top: 910px;
+    
+}
+
+
+
+
+.pawn_1_black{
+    left: 890px;
+}
+
+
+.pawn_2_black{
+    left: 765px;
+}
+.pawn_3_black{
+    left: 640px;
+}
+
+.pawn_4_black{
+    left: 515px;
+}
+
+.pawn_5_black{
+    left: 390px;
+}
+
+.pawn_6_black{
+    left: 265px;
+}
+
+
+.pawn_7_black{
+    left: 140px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
