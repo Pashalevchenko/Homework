@@ -4,12 +4,21 @@
 }
 
 
+.board{
+    width: 1200px;
+    height: 1200px;
+    background: #FECB9C;
+    margin: 60px auto;
+    display: flex;
+    border: 10px solid #000;
+}
+
 .container{
     width: 1000px;
     height: 1000px;
     border: 8px solid #1F1F1F;
     display: flex;
-    margin: 0 auto;
+    margin: auto;
     flex-direction: column;
     background: #905F50;
     
@@ -47,5 +56,174 @@
     flex-direction: row
     
 }
+
+
+.figure{
+    position: absolute;
+    font-size: 102px;
+    
+    
+    
+    
+}
+p{
+    position: absolute;
+    top: 0px;
+}
+
+.castle_1{
+    left: 890px;
+}
+
+
+.knight_2{
+    left: 765px;
+}
+.figure_2{
+    left: 640px;
+}
+
+.queen{
+    left: 515px;
+}
+
+.king{
+    left: 390px;
+}
+
+.figure_1{
+    left: 265px;
+}
+
+
+.knight{
+    left: 140px;
+}
+
+
+.figure_pawn{
+    
+    position: absolute;
+    font-size: 102px;
+    top: 290px;
+    
+}
+
+
+
+
+.pawn_1{
+    left: 890px;
+}
+
+
+.pawn_2{
+    left: 765px;
+}
+.pawn_3{
+    left: 640px;
+}
+
+.pawn_4{
+    left: 515px;
+}
+
+.pawn_5{
+    left: 390px;
+}
+
+.pawn_6{
+    left: 265px;
+}
+
+
+.pawn_7{
+    left: 140px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
