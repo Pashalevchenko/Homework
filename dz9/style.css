@@ -1,0 +1,12 @@
+.container{
+    background-color: cadetblue;
+    min-height: 400px;
+    margin-top: 60px;
+    
+}
+
+
+.box{
+    background-color: aqua;
+    min-height: 200px;
+}
