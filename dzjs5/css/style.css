@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.DoDoneList{
+    display: flex;
+/*    background-color: aqua;*/
+    width: 400px;
+    justify-content: space-between;
+}
+
+.toDoList{
+/*    margin: 0 auto;*/
+    width: 200px;
+/*    height: 400px;*/
+    background: #AFEEEE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    
+    
+    
+    
+}
+
+
+.task{
+    border-bottom: 2px solid #ff8c00;
+    
+}
+.done{
+    width: 200px;
+    background: #FF4500;
+    display: flex;
+    align-items: center;
+/*    justify-content: center;*/
+    flex-direction: column;
+    
+}
+
+
+.lableElem{
+    color: darkblue;
+    padding: 0 20px;
+     border-bottom: 1px solid #ff8c00;
+    border-top: 1px solid #ff8c00;
+
+}
+
+
+.styleLabel{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
