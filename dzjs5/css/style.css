@@ -18,7 +18,7 @@
 /*    height: 400px;*/
     background: #AFEEEE;
     display: flex;
-    justify-content: center;
+/*    justify-content: center;*/
     align-items: center;
     flex-direction: column;
     
@@ -37,7 +37,7 @@
     width: 200px;
     background: #FF4500;
     display: flex;
-    align-items: center;
+/*    align-items: center;*/
 /*    justify-content: center;*/
     flex-direction: column;
     
@@ -49,7 +49,6 @@
     padding: 0 20px;
      border-bottom: 1px solid #ff8c00;
     border-top: 1px solid #ff8c00;
-
 }
 
 

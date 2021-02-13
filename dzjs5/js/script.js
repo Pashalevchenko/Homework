@@ -19,13 +19,13 @@ function elem(){
 
 function compliteTask(){
     let par = this.parentElement
+    let delElem = done.appendChild(par.parentElement.removeChild(par));
     let delButton = document.createElement('button')
-    let newLabel = document.querySelector('.lableElem')
+    let newLabel = this.parentElement 
     delButton.onclick = dilite;
     delButton.innerHTML = 'Delite'
-    done.appendChild(par.parentElement.removeChild(par));
+    newLabel.removeChild(this)
     newLabel.appendChild(delButton)
-    newLabel.removeChild(document.querySelector('.task'))
     
     
 }
