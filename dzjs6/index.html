@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="option">
+        <select name="status" id="">
+            <option value="available">available</option>
+            <option value="pending">pending</option>
+            <option value="sold">sold</option>
+        </select>
+        <div class="button">
+            <button type="button" onclick="sendRequest()">search</button>
+        </div>
+        
+        
+        <section id="pet">
+            
+        </section>
+    </div>
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    <script>
+//        function sendRequest(){
+//            console.log('hi')
+//        }
+    let xhr = new XMLHttpRequest();
+     xhr.onreadystatechange = function(){
+         if(xhr.readyState === 4){
+            console.log(xhr.responseText);
+             let pet = JSON.parse(xhr.responseText);
+             for(let i = 0; i < pet.length; i++)
+                 console.log(pet[i])
+         }
+     }   
+        
+   
+ 
+    
+    xhr.open('GET', 'https://petstore.swagger.io/#/pet/findPetsByStatus')
+    xhr.send();    
+        console.log(xhr)
+    </script>
+    
+    
+</body>
+</html>
