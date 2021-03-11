@@ -7,13 +7,13 @@
 </head>
 <body>
    <div class="option">
-        <select name="status" id="">
+        <select name="status" id="select">
             <option value="available">available</option>
             <option value="pending">pending</option>
             <option value="sold">sold</option>
         </select>
         <div class="button">
-            <button type="button" onclick="sendRequest()">search</button>
+            <button type="button" onclick="getValue()">search</button>
         </div>
         
         
@@ -32,24 +32,56 @@
     
     
     <script>
-//        function sendRequest(){
-//            console.log('hi')
-//        }
     let xhr = new XMLHttpRequest();
      xhr.onreadystatechange = function(){
          if(xhr.readyState === 4){
             console.log(xhr.responseText);
-             let pet = JSON.parse(xhr.responseText);
-             for(let i = 0; i < pet.length; i++)
-                 console.log(pet[i])
+             let res = JSON.parse(xhr.responseText);
+             console.log(res)
+             for (let i = 0; res.length; i++){
+//                 console.log(res[i])
+                let item = creatorNodes('div',['user__item']);
+                 let img = creatorNodes('img',['user__item'])
+                 item.appendChild(img);
+                 document.getElementById('pet').appendChild(item)
+             }
          }
-     }   
+             
+         }
+        
+     
+     
+     
+    function sendRequest(){
+
+    }
+    let select = document.getElementById('select')
+    function getValue(){
+
+        let value = select.value;
+        console.log(value)
+        xhr.open('GET', 'https://petstore.swagger.io/v2/pet/findByStatus?status=' + value)
+        xhr.send();  
+    }
         
    
- 
+    function creatorNodes(type, classes, content, src){
+        let nodeElem = document.createElement(type);
+        for(let i = 0; i < classes.length; i++){
+            nodeElem.classList.add(classes[i])
+        }
+        if(type === 'img'){
+            nodeElem.setAttribute('src', src)
+        }else{
+            nodeElem.innerHTML = content;
+        }
+        return nodeElem
+    }
+        
+        console.log(creatorNodes('div',['cl1','cl2'], 'content'))
+        console.log(creatorNodes('img',['cl1Img','cl2Img'],'', 'avatar' ))
     
-    xhr.open('GET', 'https://petstore.swagger.io/#/pet/findPetsByStatus')
-    xhr.send();    
+      
         console.log(xhr)
     </script>
     
